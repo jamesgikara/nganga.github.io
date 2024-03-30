@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAMES Portfolio - Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f0fe;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}nav ul li {
+  display: inline-block;
+  margin-left: 20rem;
+}
+
+nav ul li a {
+    color: orangered;
+    text-decoration: none;
+}
+nav ul li a.hover{
+  color: red;
+}
+
+#contact {
+    padding: 50px;
+    min-height: 100vh;
+    text-align: center;
+}
+#container{
+    max-width: 700px;
+    margin:0 auto;
+
+}
+
+#container h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: brown;
+}
+#contact-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+
+
+}
+
+#contact p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+#contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+#contact-form h3{
+    font-size:30px;
+    margin-bottom: 25px;
+    color:#333;
+}
+#form-group{
+    margin-bottom: 20px;
+}
+input,textarea{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border:none;
+    background-color:white ;
+    color: black;
+}
+input:focus;
+textarea:focus{
+    outline: none;
+    box-shadow: 0 0 10px green;
+}
+
+button{
+    display:inline-block;
+    padding: 15px 30px;
+    background-color: bisque;
+    color: chocolate;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+
+}
+#contact-info{
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:#333;
+}
+#contact-info p{
+    margin-bottom: 15px;
+    color: #555;
+}
+#contact-info i{
+    color:darkgray;
+    margin-right: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+</head>
+<body>
+
+<nav>
+    <h1 class="logo">JNG</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Contact Page Content -->
+<section id="contact">
+    <div id="container">
+        <h2>Contact Me</h2>
+        <div id="contact-wrapper">
+            <div id="contact-form">
+                <h3>Send me a message</h3>
+                <form>
+                    <div id="form-group">
+                        <input type="text" name="name" placeholder="Enter your Name">
+                    </div>
+                    <div id="form-group">
+                        <input type="email" name="email" placeholder="Enter your Email">
+                    </div>
+                    <div id="form-group">
+                        <textarea name="message" placeholder="Enter your Message"></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div id="contact-info">
+                <h3>Contact Information</h3>
+                <p><i class="fas fa-phone"></i> +254746918435</p>
+                <p><i class="fas fa-envelope"></i> jamesnganga1199@gmail.com</p>
+                <p><i class="fas fa-city"></i> 124 Street, Nairobi, Kenya</p>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="portfolio.js"></script>
+<footer>
+    <p>&copy; 2024 JAMES NG'ANG'A. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

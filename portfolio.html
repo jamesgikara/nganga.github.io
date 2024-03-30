@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAMES portfolio - Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: chocolate;
+        }
+        
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline-block;
+            margin-left: 20rem;
+        }
+        
+        nav ul li a {
+            color: orangered;
+            text-decoration: none;
+        }
+        
+        #portfolio {
+            padding: 20px;
+            display: flex;
+            align-items: center; /* Center align items */
+        }
+        
+        .project {
+            flex: 0 0 auto;
+            width: 400px;
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 70px;
+        }
+        
+        .project img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 70px;
+        }
+        
+        #portfolio h2 {
+            font-size: xx-large;
+            font-weight: bolder;
+            margin-bottom: 20px; /* Adjust margin bottom as needed */
+            margin-top: 0; /* Reset margin top */
+        }
+        
+        #portfolio p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        
+        #portfolio ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        #portfolio ul li {
+            margin-bottom: 10px;
+        }
+        
+        #portfolio ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        
+        #portfolio ul li a:hover {
+            background-color: #ddd;
+        }
+        .project:hover {
+    background-color:orangered; 
+    cursor: pointer; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1 class="logo">JNG</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="portfolio">
+        <h2>Browse my projects</h2>
+    
+        <div class="project">
+            <a href="project1.html">Project 1</a>
+            <h3> A LOGIN APPLICATION </h3>
+            <img src="project1.png" alt="project1 image">
+        </div>
+    
+        <div class="project">
+            <a href="project2.html">Project 2</a>
+            <h4>FAMILY TREE PROGRAM</h4>
+            <img src="project2.png" alt="project2 image">
+        </div>
+    
+        <div class="project">
+            <a href="project3.html">Project 3</a>
+            <h5>GRADE CALCULATOR PROGRAM</h5>
+            <img src="project3.png" alt="project3 image">
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 JAMES NG'ANG'A. All rights reserved.</p>
+    </footer>
+</body>
+</html>

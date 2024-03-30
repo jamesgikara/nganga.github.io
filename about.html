@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAMES Portfolio - About</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: burlywood;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-left: 20rem;
+        }
+
+        nav ul li a {
+            color: orangered;
+            text-decoration: none;
+        }
+
+        nav ul li a.hover {
+            color: red;
+        }
+        /* About Page Specific Styles */
+        #about {
+            padding: 20px;
+            display: flex; /* Use flexbox */
+            align-items: flex-start; /* Align items at the start */
+            flex-wrap: wrap; /* Wrap items if needed */
+            justify-content: center; /* Center items horizontally */
+            text-align: center; /* Center text */
+        }
+
+        #about h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        #about p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        #profile-image {
+            width: 200px; /* Set the width to make the image smaller */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 50%; /* Make the border radius 50% to create a circular frame */
+            margin-right: 20px; /* Add margin for spacing */
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Section -->
+<nav>
+    <h1 class="logo">JNG</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- About Page Content -->
+<section id="about">
+    <!-- Add image link for person's photo -->
+    <img id="profile-image" src="profile.jpg" alt="James Ng'ang'a">
+    <div>
+        <h2>About Me</h2>
+        <!-- Existing content -->
+        <p>Hello! My name is JAMES NG'ANG'A, and I am passionate about coding and software development. I have experience working on various projects, including:</p>
+        <ul>
+            <li>Family Tree Prolog Program: This project involved implementing a family tree in Prolog and creating a structured representation of familial relationships.</li>
+            <li>Grade Calculator Program: I developed a grade calculator program that takes marks as input and awards the appropriate grade based on USIU's grading system. The program utilizes control statements and loops for efficient grade calculations.</li>
+            <li>Portfolio Website: I designed and developed a personal portfolio website to showcase my projects, skills, and experiences. The website includes sections such as Home, Portfolio, About Me, and Contact, providing visitors with an overview of my work and background.</li>
+        </ul>
+        <p>In addition to these projects, I have a strong foundation in programming languages such as HTML, CSS, JavaScript, Python, and Prolog. I enjoy solving complex problems, learning new technologies, and collaborating with others to create innovative solutions.</p>
+        <p>Outside of coding, I enjoy reading novels, swimming, watching podcasts related to technologies, and streaming on the internet to know daily trends. I am dedicated to continuous learning and growth, and I am excited about the opportunities to contribute to meaningful projects and make a positive impact in the world of technology.</p>
+    </div>
+</section>
+<script src="portfolio.js"></script>
+<footer>
+    <p>&copy; 2024 JAMES NG'ANG'A. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
